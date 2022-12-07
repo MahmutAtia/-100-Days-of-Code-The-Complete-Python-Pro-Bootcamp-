@@ -1,0 +1,158 @@
+#title{
+background-color:#ff4c68;
+}
+.navbar{
+padding-bottom:4.5rem;
+padding-left:0px;
+
+}
+
+.nav-item{
+padding:0 10px;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+font-size : 2rm;
+line-height:1.5;
+color:white;
+}
+.container-fluid{
+ padding:3% 10% 10%;
+}
+/* navigation bar*/
+
+.navbar-brand{
+font-size:2.5rem;
+color: white;
+font-family: 'Ubuntu', sans-serif;
+padding-right:0px;
+}
+
+#rotate{
+transform: rotate(20deg);
+width:60%;
+position:absolute;
+right:30%
+
+}
+
+/*changing all the text font global fonts*/
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+/*color of icons*/
+/* how to center any elamant ? */
+.icon{
+color:#EF8172;
+font-size:5rem;
+margin-bottom:1rem;
+}
+p{
+color:gray;
+style: normal;
+font-size:0.7rem}
+
+h3{
+font-size:1rem;}
+.icon:hover{
+color:#FF4D69;
+}
+.box{
+text-align:center;
+padding:5%;
+}
+#features{
+padding:7% 15%;
+background-color:white;
+position:relative;
+}
+
+#testimonials{
+background-color:#EF7468;
+text-align:center;
+
+
+}
+.testimonial{
+border-radius:100%;
+width:5rem;
+}
+h2{
+font-size:3rem;
+line-height:1.5;
+color:black;
+padding:0.7% 0.15%;
+
+}
+
+#press{
+background-color:#fff;
+text-align:center;
+padding:4rem;
+
+}
+
+.carousel-indicators{
+margin-top:4rem;
+}
+.logos{
+width:10rem;
+margin: 1rem ;
+}
+
+.carousel-item{
+padding:7rem;
+}
+
+
+#pricing{
+padding:7rem;
+text-align:center;
+}
+
+.pcol{
+padding:3% 2%;
+}
+.btn{
+position:relative;
+z-index:1;
+}
+
+
+
+
+@media only screen and (max-width:992){
+
+}
+
+@media only screen and (max-width: 993px) {
+
+
+h2{
+color:white;
+}
+#rotate{
+position:static;
+transform:rotate(1deg);
+padding-top:30px;
+}
+#title{
+text-align:center;
+}
+
+}
+
+#cta{
+background-color:#FF4B67;
+text-align:center;
+padding:15% 10%;
+}
+.p{
+color:black;
+}
+
+
+#footer{
+text-align:center;
+}

@@ -1,0 +1,10 @@
+{%extends "bootstrap/base.html" %}
+
+   {%block title%} Add Book {%endblock%}
+
+{%block content%}
+    <form action={{url_for("add")}} method="POST">
+        {%import "bootstrap/wtf.html" as wtf%}
+        {{wtf.quick_form(form)}}
+    </form>
+{%endblock%}

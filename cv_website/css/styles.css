@@ -1,0 +1,56 @@
+body{
+background-color:#fff2f2;
+margin: 10;
+text-align: center;
+ba
+}
+
+
+.top-cloud{
+    position: relative;
+    left: 100px;
+}
+
+.bottom-cloud{
+    position: relative;
+    bottom: 349px;
+    left: 100px;
+}
+
+.heading{
+    font-family: 'Parisienne', cursive;
+    font-size: 5rem;
+    color:  #66BFBF;
+    line-height: 2;
+
+}
+.normal{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    color:  #66BFBF;
+    font-weight: normal;
+}
+
+h3{color: #11999E;}
+
+a{color:#11999E;}
+
+.pro{
+    font-weight: bold;
+}
+
+.skill-row{
+    width: 50%;
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img{
+    width: 50%;
+    position: relative;
+    margin-left: auto ;
+    margin-right: 20px;
+    float: left;
+}
